@@ -5,6 +5,8 @@ on:
     paths:
       - 'docker/growi/**'
       - '.github/workflows/growi.yml'
+    branches:
+      - main
 
 jobs:
   build:

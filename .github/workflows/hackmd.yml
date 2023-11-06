@@ -5,7 +5,8 @@ on:
     paths:
       - 'docker/hackmd/**'
       - '.github/workflows/hackmd.yml'
-  workflow_dispatch:
+    branches:
+      - main
 
 jobs:
   build:

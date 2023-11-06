@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  # https://github.com/dependabot/dependabot-core/issues/2178
+  - package-ecosystem: "docker"
+    directory: "/docker/elasticsearch"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "docker"
+    directory: "/docker/growi"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "docker"
+    directory: "/docker/nextcloud"
+    schedule:
+      interval: "daily"
