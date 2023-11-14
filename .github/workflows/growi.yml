@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'docker/growi/**'
-      - '.github/workflows/growi.yml'
     branches:
       - main
 

@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'docker/hackmd/**'
-      - '.github/workflows/hackmd.yml'
     branches:
       - main
 

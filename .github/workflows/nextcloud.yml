@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - 'docker/nextcloud/**'
-      - '.github/workflows/nextcloud.yml'
     branches:
       - main
 
