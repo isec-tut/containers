@@ -17,3 +17,7 @@ updates:
     directory: "/docker/nextcloud"
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "nextcloud"
+        update-types:
+          - "version-update:semver-major"
