@@ -1,2 +1,2 @@
 # syntax = docker/dockerfile:1.4
-FROM weseek/growi:7.0.21
+FROM weseek/growi:7.0.22
